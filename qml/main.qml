@@ -65,6 +65,7 @@ ApplicationWindow {
             Label {
                 color: system.windowText
                 text: hpa.getMessage()
+                Layout.alignment: Qt.AlignHCenter
                 Layout.maximumWidth: parent.width
                 elide: Text.ElideRight
                 wrapMode: Text.WordWrap
