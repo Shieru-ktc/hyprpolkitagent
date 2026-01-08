@@ -44,7 +44,7 @@ ApplicationWindow {
 
         ColumnLayout {
             anchors.fill: parent
-            anchors.margins: 4
+            anchors.margins: 20
 
             Label {
                 color: Qt.darker(system.windowText, 0.8)
